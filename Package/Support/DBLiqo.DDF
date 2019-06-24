@@ -1,0 +1,26 @@
+.OPTION EXPLICIT
+.Set Cabinet=off
+.Set Compress=off
+.Set MaxDiskSize=CDROM
+.Set ReservePerCabinetSize=6144
+.Set DiskDirectoryTemplate=".."
+.Set CompressionType=MSZIP
+.Set CompressionLevel=7
+.Set CompressionMemory=21
+.Set CabinetNameTemplate="DBLiqo.CAB"
+"Setup.Lst"
+"setup.exe"
+.Set Cabinet=on
+.Set Compress=on
+"DBLiqo.exe"
+"comctl32.dll"
+"MSADODC.OCX"
+"msstdfmt.dll"
+"MSDATGRD.OCX"
+"msado20.tlb"
+"Crystl32.OCX"
+"msvcrt.dll"
+"SETUP1.EXE"
+"VB6STKIT.DLL"
+"ST6UNST.EXE"
+"Db.mdb"
